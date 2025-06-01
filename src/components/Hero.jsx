@@ -16,8 +16,6 @@ const Hero = () => {
 
   const nextVideoRef = useRef(null);
 
-  const upcomingVideoIndex = (currentIndex % totalVideos) + 1;
-
   const handleMiniVidClick = () => {
     setHasClicked(true);
     setCurrentIndex((prevIndex) => prevIndex + 1);
