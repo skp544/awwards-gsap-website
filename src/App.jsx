@@ -3,6 +3,9 @@ import Hero from "./components/Hero.jsx";
 import About from "./components/About.jsx";
 import Features from "./components/Features.jsx";
 import Navbar from "./components/Navbar.jsx";
+import Story from "./components/Story.jsx";
+import Contact from "./components/Contact.jsx";
+import Footer from "./components/Footer.jsx";
 
 const App = () => {
   return (
@@ -11,7 +14,9 @@ const App = () => {
       <Hero />
       <About />
       <Features />
-      {/*<section className={"min-h-screen bg-violet-50 z-0"}></section>*/}
+      <Story />
+      <Contact />
+      <Footer />
     </main>
   );
 };
